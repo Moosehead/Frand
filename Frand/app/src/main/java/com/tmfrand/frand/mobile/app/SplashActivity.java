@@ -15,7 +15,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.Toast;
 
-import com.tmfrand.frand.R;
+
 import com.tmfrand.frand.mobile.amazonaws.AWSMobileClient;
 import com.tmfrand.frand.mobile.amazonaws.user.IdentityManager;
 import com.tmfrand.frand.mobile.amazonaws.user.IdentityProvider;
