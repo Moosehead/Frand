@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.0_21c404f9b6d91b6f9ff34fa24b82a2969c7fc9bf\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.0_50645868d5daecd38778ea91db0fe215fe7de2df\classes.dex" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio1\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_ea3566817aae63c8e87ab16e4d1ccfdc8d788289\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Moosa\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-cognito\2.2.11\a0a93d1bd95a14a80a86bf197eb8db507031e832\aws-android-sdk-cognito-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a0a93d1bd95a14a80a86bf197eb8db507031e832">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-cognito-2.2.11_97b5ad148731d7ffa0f38745d7f8737f8508c500\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_f3e5bf7a65e9446a8ff818b368f02b56efbac666\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Moosa\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-core\2.2.11\26f86360a57bc6f750e8ee1628c45e1eda4abe68\aws-android-sdk-core-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="26f86360a57bc6f750e8ee1628c45e1eda4abe68">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-core-2.2.11_33c15bd9ae7c7f96c94d719f22d42ad594d324ce\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Moosa\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-s3\2.2.11\4aa510782be09934b13b0259ac3246a4be164c27\aws-android-sdk-s3-2.2.11.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4aa510782be09934b13b0259ac3246a4be164c27">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\aws-android-sdk-s3-2.2.11_31a693e1ff058196580a07d139a78a1cd14c70a2\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="109aee6e1804cada60cb9fd52935917ffebbccea">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1a93909c3bf4a6169f497cdbe1122a1df44999b7\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.0_40a165f16834f0da0bd46047dc0ea5801096327a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Moosa\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_e724782f1b22f2888bc144f4992668484b2bde1e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Moosa\.android\sdk2\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.0_bc579b47d844175c881cdc1b3ce9fc8e7e0a1b2d\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9a51ed83c9d6cc919c4457c2de4263c57344aa7f">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_df9aa53aa69b1a675f2278ee9bacf5368d4bf11f\classes.dex" />
+    </item>
+    <item
+        jar="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.6.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="F:\Android_Studio_Works\Work_Git\Frand\MySampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.6.0_3d602da37572a99b28e469d0ad37d57dc278fe41\classes.dex" />
+    </item>
+
+</items>
