@@ -10,25 +10,16 @@ package com.tmfrand.frand.mobile.app;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
 
-import com.tmfrand.frand.R;
 import com.tmfrand.frand.mobile.amazonaws.AWSMobileClient;
 import com.tmfrand.frand.mobile.amazonaws.user.IdentityManager;
-import com.tmfrand.frand.mobile.app.demo.DemoConfiguration;
-import com.tmfrand.frand.mobile.app.demo.HomeDemoFragment;
-import com.tmfrand.frand.mobile.app.navigation.NavigationDrawer;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     /** Class name for log messages. */
@@ -43,8 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /** The toolbar view control. */
     private Toolbar toolbar;
 
-    /** Our navigation drawer class for handling navigation drawer logic. */
-    private NavigationDrawer navigationDrawer;
+
 
     /** The helper class used to toggle the left navigation drawer open and closed. */
     private ActionBarDrawerToggle drawerToggle;
@@ -80,35 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    /**
-     * Initializes the navigation drawer menu to allow toggling via the toolbar or swipe from the
-     * side of the screen.
-     */
-    private void setupNavigationMenu(final Bundle savedInstanceState) {
-        final DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        final ListView drawerItems = (ListView) findViewById(R.id.nav_drawer_items);
 
-        // Create the navigation drawer.
-        navigationDrawer = new NavigationDrawer(this, toolbar, drawerLayout, drawerItems,
-            R.id.main_fragment_container);
-
-        // Add navigation drawer menu items.
-        // Home isn't a demo, but is fake as a demo.
-        DemoConfiguration.DemoFeature home = new DemoConfiguration.DemoFeature();
-        home.iconResId = R.mipmap.icon_home;
-        home.titleResId = R.string.main_nav_menu_item_home;
-        navigationDrawer.addDemoFeatureToMenu(home);
-
-        for (DemoConfiguration.DemoFeature demoFeature : DemoConfiguration.getDemoFeatureList()) {
-            navigationDrawer.addDemoFeatureToMenu(demoFeature);
-        }
-        setupSignInButtons();
-
-        if (savedInstanceState == null) {
-            // Add the home fragment to be displayed initially.
-            navigationDrawer.showHome();
-        }
-    }
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -128,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         setupToolbar(savedInstanceState);
 
-        setupNavigationMenu(savedInstanceState);
+
     }
 
     @Override
@@ -187,31 +149,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onBackPressed() {
         final FragmentManager fragmentManager = this.getSupportFragmentManager();
         
-        if (navigationDrawer.isDrawerOpen()) {
-            navigationDrawer.closeDrawer();
-            return;
-        }
 
-        if (fragmentManager.getBackStackEntryCount() == 0) {
-            if (fragmentManager.findFragmentByTag(HomeDemoFragment.class.getSimpleName()) == null) {
-                final Class fragmentClass = HomeDemoFragment.class;
-                // if we aren't on the home fragment, navigate home.
-                final Fragment fragment = Fragment.instantiate(this, fragmentClass.getName());
 
-                fragmentManager
-                    .beginTransaction()
-                    .replace(R.id.main_fragment_container, fragment, fragmentClass.getSimpleName())
-                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-                    .commit();
 
-                // Set the title for the fragment.
-                final ActionBar actionBar = this.getSupportActionBar();
-                if (actionBar != null) {
-                    actionBar.setTitle(getString(R.string.app_name));
-                }
-                return;
-            }
-        }
         super.onBackPressed();
     }
 }
