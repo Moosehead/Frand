@@ -1,0 +1,4 @@
+Google Cloud Messaging (GCM):
+
+keytool -list -v -keystore C:\Users\Soloman\.android\de­bug.keystore -alias androiddebugkey -storepass android -keypass android
+AIzaSyCNRis5No0EHCK2EscquVfynj7-uGy-GBM
