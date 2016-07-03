@@ -1,3 +1,3 @@
 # Frand
 
-#Testing the repository
+#Android application V.1.2
